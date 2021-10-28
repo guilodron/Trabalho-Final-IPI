@@ -1,3 +1,4 @@
+# Guilherme Rodrigues Lodron Pires - 17011780
 import cv2 as cv
 import numpy as np
 
@@ -87,7 +88,6 @@ selected_images = [10, 12, 15, 21, 25, 28, 58, 63, 69, 75, 83, 95, 99,
 290, 312 ]
 
 best_fit = [15, 25, 28, 63, 83, 117, 120, 132, 134, 178, 181, 184, 202, 206, 233, 264, 267, 271]
-report = [25, 28, 132, 184, 206]
 
 for i in best_fit:
     mama = cv.imread(f'images/1 ({i}).pgm', cv.IMREAD_GRAYSCALE)
